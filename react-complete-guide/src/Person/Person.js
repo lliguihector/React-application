@@ -1,6 +1,8 @@
+//Import react
 import React from 'react';
-import './Person.css';
 
+//Import Css
+import './Person.css';
 
 //a function with Es6
 const person  = (props) => {
@@ -10,9 +12,8 @@ return(
 <p>{props.children}</p>
 <input type="text" onChange={props.changed} value={props.name}/>
 </div>
-
 )
 };
 
-
+//Export Component 
 export default person;
